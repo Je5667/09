@@ -16,7 +16,9 @@ printf("grade[%d] = %d\n", i, grade[i]);
 printf("\n");
 
 for( i=0; i<SIZE; i++){
-	score[i]=grade[i];
+	score[i]=grade[i];}
+
+for( i=0; i<SIZE; i++){
 	printf("score[%d] = %d\n", i, score[i]);
 }
 
